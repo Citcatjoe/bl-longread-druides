@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175.096" height="175.095" viewBox="0 0 175.096 175.095">
+  <g id="chakra7" transform="translate(1 0.999)">
+    <path id="bg" d="M86.547,0A86.548,86.548,0,1,0,173.1,86.548,86.646,86.646,0,0,0,86.547,0" transform="translate(0 0.001)" fill="#59b2b2" stroke="#fff" stroke-width="2"/>
+    <g id="Groupe_2711" data-name="Groupe 2711" transform="translate(123.09 84.778) rotate(180)">
+      <g id="Polygone_1" data-name="Polygone 1" transform="translate(73.085 80.778) rotate(180)" fill="none">
+        <path d="M36.542,0,73.085,80.778H0Z" stroke="none"/>
+        <path d="M 36.54246520996094 3.6392822265625 L 2.324913024902344 79.27786254882812 L 70.76000213623047 79.27786254882812 L 36.54246520996094 3.6392822265625 M 36.54246520996094 -7.62939453125e-06 L 73.08492279052734 80.77786254882812 L -7.62939453125e-06 80.77786254882812 L 36.54246520996094 -7.62939453125e-06 Z" stroke="none" fill="#fff"/>
+      </g>
+      <path id="Tracé_2925" data-name="Tracé 2925" d="M0,0H71.815" transform="translate(0.383 48.161)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    </g>
+    <g id="Groupe_2710" data-name="Groupe 2710" transform="translate(50.005 92.166)">
+      <g id="Polygone_1-2" data-name="Polygone 1" transform="translate(73.085 76.931) rotate(180)" fill="none">
+        <path d="M36.542,0,73.085,76.931H0Z" stroke="none"/>
+        <path d="M 36.54246520996094 3.496025085449219 L 2.373115539550781 75.43131256103516 L 70.71181488037109 75.43131256103516 L 36.54246520996094 3.496025085449219 M 36.54246520996094 0 L 73.08493041992188 76.93131256103516 L 0 76.93131256103516 L 36.54246520996094 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

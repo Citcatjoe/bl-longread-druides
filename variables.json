@@ -1,0 +1,28 @@
+{
+	"title": "Bienvenue chez les druides",
+	"titlesocial": "Bienvenue chez les druides",
+	"description": "Durant 4 jours, notre journaliste Ellen De Meester a suivi les cours d’introduction au druidisme de l’école Eoriañ, à Bôle (NE). Conversations avec les arbres, histoire celtique et calendrier druidique",
+	"authors": {
+		"photos": "Ellen De Meester et Madame Photo",
+		"videos": null,
+		"illustrations": "Ellen De Meester et Shutterstock",
+		"writer": {
+			"fname": "Ellen",
+			"lname": "De Meester",
+			"title": "Journaliste Blick",
+			"filetype": "png",
+			"url": "https://www.blick.ch/fr/auteurs/ellen-de-meester-id18937288.html"
+		},
+		"dev": "César Greppin"
+	},
+	"imgSocial": "social.jpg",
+	"headertheme": "trans", 
+	"blickWhite": true,
+	"blickBlack": false,
+	"headerBoxed": false,
+	"pubDate": "2020-07-23T11:00:00+00:00",
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.blick.ch/"
+	}
+}

@@ -1,0 +1,163 @@
+////////////////////////////////////////////////////////////////
+//     TAILWIND STYLE CUSTOM CLASSES
+////////////////////////////////////////////////////////////////
+
+.border-custom-btn
+{
+    border-width: 3px;;
+}
+
+.border-custom-y
+{
+    border-top: 1px solid $bgContrast2;
+    border-bottom: 1px solid $bgContrast2;
+}
+
+.h-custom-title
+{
+    height: 12rem;
+
+    @include breakpoint(min, medium) {
+        height: 27rem;
+    };
+}
+
+.border-custom
+{
+    border-color: $colorFrame;
+}
+
+.left-custom-imgcontainer
+{
+    left: 55%;
+
+    @include breakpoint(min, medium) {
+        left: 55%;
+    };
+}
+
+.text-custom-size
+{
+    font-size: 1.15rem;
+
+    @include breakpoint(min, medium) {
+        font-size: 1.375rem;
+    }
+}
+
+.text-custom-size-title
+{
+    font-size:1.75rem;
+
+    @include breakpoint(min, medium) {
+        font-size: 2.5rem;
+    };
+}
+
+.text-custom-size-slider
+{
+    font-size: 1rem;
+
+    @include breakpoint(min, medium) {
+        font-size: 1.375rem;
+    };
+}
+
+.text-custom-color1
+{
+    color: $color1;
+}
+
+.text-custom-dark1
+{
+    color: $colorDark1;
+}
+
+.text-custom-dark2
+{
+    color: $colorDark2;
+}
+
+.bg-custom-dark1
+{
+    background: $colorDark1;
+}
+
+.bg-custom-dark2
+{
+    background: $colorDark2;
+}
+
+.shadow-custom
+{
+    box-shadow: 0px 8px 14px #4949497c;
+}
+
+.w-custom-auras
+{
+    width: calc(385.37px / 2.2);
+    height: calc(506.798px / 2.2);
+    transform: translateX(-7%) !important;
+
+    @include breakpoint(min, medium) {
+        //width: 26rem !important;
+        width: 385.37px;
+        height: 506.798px;
+        transform: translateX(0) !important;
+    }
+
+   
+}
+
+.w-custom-photo1
+{
+    width: 23rem;
+}
+
+.w-custom-photo2
+{
+    width: 30rem;
+}
+
+.vignette {
+    box-shadow: inset 0 0 5em 1em #000;
+  }
+
+
+
+.jBox-wrapper
+{
+
+    &::before { box-shadow: 0 0 5px rgba(0,0,0, 0); }
+    
+    .jBox-container
+    {
+        font-size: 16px;
+        font-family: Roboto mono;
+        box-shadow: 0 0 5px rgba(0,0,0, 0);
+        border: 0;
+
+        .jBox-content
+        {
+            background: $colorFrame;
+            color: rgba(0, 0, 0, .5);
+        }
+
+        .jBox-closeButton
+        {
+            background: $colorFrame !important;
+
+            svg path { fill: rgba(0, 0, 0, .5); }
+            
+        }
+    }
+
+    
+}
+
+.jBox-pointer::after
+{
+    background: $colorFrame;
+    box-shadow: 0 0 5px rgba(0,0,0, 0);
+}
+

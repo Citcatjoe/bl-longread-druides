@@ -1,0 +1,499 @@
+////////////////////////////////////////////////////////////////
+//     STATEMENTS
+////////////////////////////////////////////////////////////////
+.correct { background: #BEEDB0 !important; }
+.correct-txt { color: #3DBC1B !important; }
+.error { background: #EDB0B0 !important; }
+.error-txt { color: #BE5E5E !important; }
+.selected { background: rgb(252, 245, 205) !important; }
+.faded { background: rgb(250, 250, 250) !important; color: #c5c5c5;}
+
+////////////////////////////////////////////////////////////////
+//     GENERAL STORYTELLING COMPONENTS
+////////////////////////////////////////////////////////////////
+
+.hero 
+{ 
+    //height: 50vh;
+
+    @include breakpoint(min, medium) {
+        height: auto;
+        height: 80vh;
+        background: transparent;
+        //background: rgba(0, 0, 0, 0.1);
+        
+        
+    }
+
+    .hero-img
+    {
+        // background: url('../img/this/hero_img_1.jpg');
+        background: url('../img/this/ellen.jpg');
+        //background: url('../img/this/calepin.jpg');
+        background-size: cover;
+        background-position: center bottom;
+        //width: 100%;
+        width: calc(100% - 32px);
+        
+        height: 500px;
+        //height: 500px; 
+        //
+
+        @include breakpoint(min, medium) {
+            width: 50%;
+            height: 100% !important;
+            right: 16px;
+        }
+
+        @include breakpoint(between, medium 1280px) {
+            //width: auto;
+            right: 16px;
+          };
+        
+        // left: calc(50% + 80px);
+        
+    }
+}
+
+.frame 
+{ 
+    background: $colorFrame; 
+}
+
+// .corner-top-left
+// {
+//     top: 64px;
+//     transition: all 0.2s;
+
+//     &.headroom--unpinned
+//     {
+//         top: 16px;
+//         transition: all 0.2s;
+//     }
+// }
+
+.color 
+{
+    background: $colorLight2;
+    //overflow: hidden; 
+}
+
+.gradient
+{
+    // background: radial-gradient(ellipse at center, transparent 0%, black 100%);
+    // opacity: .5;
+    background: linear-gradient(75deg, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.color-gradient
+{
+    background: linear-gradient(60deg, $colorGradient1 0%, $colorGradient2 100%);
+}
+
+button
+{
+    
+}
+
+iframe
+{
+    
+}
+
+footer
+{
+    height: 100vh;
+    background:#202124;
+}
+
+////////////////////////////////////////////////////////////////
+//     THIS STORYTELLING COMPONENTS
+////////////////////////////////////////////////////////////////
+
+.gauge
+{
+    position: relative;
+
+    .gauge-bg
+    {
+        
+    }
+
+    .gauge-cursor
+    {
+        position: absolute;
+        transform: translateX(-50%);
+        z-index: 1;
+        left: 5%;
+
+        // transform: scale(50%) !important;
+
+        // @include breakpoint(min, medium) {
+        //     transform: scale(100%) !important;
+        //     transform-origin: center center !important;
+        // };
+    }
+}
+
+#title1 
+{
+    
+    .img-container
+    {
+        width: calc(356px / 2.4);
+        height: calc(526px / 2.4);
+
+        @include breakpoint(min, medium) {
+            width: 356px;
+            height: 526px;
+        };
+    }
+}
+
+#title2
+{
+    
+    .img-container
+    {
+        width: calc(367px / 3);
+        height: auto;
+
+        @include breakpoint(min, medium) {
+            width: 367px;
+            height: auto;
+        };
+    }
+}
+
+#title3
+{
+    
+    .img-container
+    {
+        width: calc(356px / 2.4);
+        height: calc(526px / 2.4);
+
+        @include breakpoint(min, medium) {
+            width: 356px;
+            height: 526px;
+        };
+    }
+}
+
+.btn:not(.cursor-pointer)
+{
+    color: $color1;
+    background:$bgContrast;
+    bottom: 5px;
+    border: 2px solid $color1;
+    position: absolute;
+
+    font-family: Caudex;
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+
+    @include breakpoint(min, medium) {
+        bottom: 0;
+        width: 170px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        
+    };
+
+    &.btn-prev
+    {
+        left: 16px;
+        z-index:5;
+
+        @include breakpoint(min, medium) {
+            left: 0;
+            font-size: 1.375rem;
+        };
+    }
+
+    &.btn-next
+    {
+        right: 16px;
+        z-index:5;
+
+        @include breakpoint(min, medium) {
+            right: 0;
+            font-size: 1.375rem;
+        };
+    }
+
+    &:hover
+    {
+        background-color: lighten($bgContrast, 5%);
+    }
+}
+
+.video-container
+{
+    //aspect-ratio: 200/90;
+    border-radius: 10px;
+    height: 300px;
+    // width: 250px;
+    // height: 350px;
+    // background: white;
+    // border-radius: 200px 200px 0 0 !important;
+
+    video
+    {
+        max-width: initial;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        //border-radius: 200px 200px 0 0 !important;
+        // width:500px!important;
+        // transform: translateX(-162px);
+    }
+}
+
+.line 
+{
+    border-radius: 100px 0 100px 0;
+}
+
+.ring-1 
+{
+    box-shadow: 0 !important;
+}
+
+
+.btn-prev
+{
+    left: 0;
+    bottom: 0;
+}
+
+.btn-next
+{
+    right: 0;
+    bottom: 0;
+}
+
+.swiper-pagination
+{
+    bottom: 20px !important;
+    z-index: 4;
+
+    .swiper-pagination-bullet
+    {
+        background-color: $bgContrast;
+        border: 1px solid $color1;
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active
+    {
+        background-color: $color1;
+    }
+}
+
+.swiper-slide
+{
+    text-align: left!important;
+    //background-color: #3b8671!important;
+}
+
+.swiperCards 
+{
+    width: 50%;
+    aspect-ratio: 9/13;
+    margin-left: initial;
+    //height: 100%; 
+
+    @include breakpoint(min, medium) {
+        width: 70%
+    };
+
+    .swiper-slide 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        // background: $bgContrast !important;
+        background: linear-gradient(31deg, $bgContrast, lighten($bgContrast, 15%)) !important;
+
+        .border
+        {
+            width: 100%;
+            height: 100%;
+            border: 2px solid white;
+            border-radius: 10px;
+            opacity: .3;
+        }
+
+        &:nth-child(1)
+        {
+            // background-position: center center!important;
+            // background-size: 80% !important;
+            // background-repeat: no-repeat !important;
+            // background-image: url('../img/this/barde.png') !important;
+
+
+            .slide-bg
+            {
+                height: 100%;
+                width: 100%;
+                background-position: center center!important;
+                background-size: 95% !important;
+                background-repeat: no-repeat !important;
+                background-image: url('../img/this/barde.png') !important;
+            }
+        }
+
+        &:nth-child(2)
+        {
+            // background-position: center center!important;
+            // background-size: 80% !important;
+            // background-repeat: no-repeat !important;
+            // background-image: url('../img/this/barde.png') !important;
+
+
+            .slide-bg
+            {
+                height: 100%;
+                width: 100%;
+                background-position: center center!important;
+                background-size: 95% !important;
+                background-repeat: no-repeat !important;
+                background-image: url('../img/this/ovate.png') !important;
+            }
+        }
+
+        &:nth-child(3)
+        {
+            // background-position: center center!important;
+            // background-size: 80% !important;
+            // background-repeat: no-repeat !important;
+            // background-image: url('../img/this/barde.png') !important;
+
+
+            .slide-bg
+            {
+                height: 100%;
+                width: 100%;
+                background-position: center center!important;
+                background-size: 95% !important;
+                background-repeat: no-repeat !important;
+                background-image: url('../img/this/druide.png') !important;
+                // border: 2px solid $color1;
+                // border-radius: 10px;
+            }
+        }
+    }
+
+    .swiper-slide:nth-child(1n) 
+    {
+    background-color: white;
+    // background-color: rgb(206, 17, 17);
+    }
+
+    .swiper-slide:nth-child(2n) 
+    {
+    background-color: white;
+    // background-color: rgb(0, 140, 255);
+    }
+
+    .swiper-slide:nth-child(3n) 
+    {
+    background-color: white;
+    // background-color: rgb(10, 184, 111);
+    }
+}
+
+.wheel
+{
+    margin: 0 !important;
+    
+    width: 300px !important;
+        height: 300px !important;
+
+    @include breakpoint(min, medium) {
+        width: 458px !important;
+    height: 458px !important;
+    }
+
+    @include breakpoint(between, medium 1280px) {
+        //width: auto;
+        right: 16px;
+      };
+}
+
+.wheel-container-mobile,
+.chakras-container-mobile
+{
+    top: 50px;
+    background: $bgContrast;
+    border: 1px solid lighten($bgContrast, 5%);
+    transition: all 0.2s;
+
+    &.headroom--unpinned
+    {
+        top: 16px;
+       transition: all 0.2s;
+    }
+
+    &.offscreen
+    {
+        transform: translateX(-110%);
+        transition: all 0.2s;
+    }
+}
+
+.dot-aura1
+{
+    background-color: #B5B5B5;
+}
+
+.dot-aura2
+{
+    background-color: #55A891;
+}
+
+.dot-aura3
+{
+    background-color: #5C79A2;
+}
+
+.dot-aura4
+{
+    background-color: #95754A;
+}
+
+
+
+
+figure.feuille
+{
+    background: url('../img/this/trucs_de_foret_chevres.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

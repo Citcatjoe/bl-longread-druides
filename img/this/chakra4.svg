@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175.096" height="175.095" viewBox="0 0 175.096 175.095">
+  <g id="chakra4" transform="translate(1 1)">
+    <path id="bg" d="M86.547,0A86.548,86.548,0,1,0,173.1,86.548,86.646,86.646,0,0,0,86.547,0" transform="translate(0 0)" fill="#6da749" stroke="#fff" stroke-width="2"/>
+    <g id="Groupe_2706" data-name="Groupe 2706" transform="translate(35.161 40.028)">
+      <g id="Polygone_1" data-name="Polygone 1" transform="translate(102.776 116.298) rotate(180)" fill="none">
+        <path d="M51.388,0l51.388,116.3H0Z" stroke="none"/>
+        <path d="M 51.3878059387207 4.948471069335938 L 3.07025146484375 114.2985000610352 L 99.70541381835938 114.2985000610352 L 51.3878059387207 4.948471069335938 M 51.3878059387207 0 L 102.7756729125977 116.2985000610352 L -7.62939453125e-06 116.2985000610352 L 51.3878059387207 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
