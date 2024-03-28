@@ -43,13 +43,13 @@ h1
 }
 
 
-h2
+h2:not(#onetrust-policy-title)
 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
 }
-// h2:not(#onetrust-policy-title)
+// h2
 // {
 //     font-family: 'playfair display';
 //     font-size: 40px !important;
@@ -72,7 +72,7 @@ h2
 //     };
 // }
 
-h3 
+h3:not(.ot-dpd-title) 
 {
     font-family: Cormorant upright;
     font-weight: 700 !important;

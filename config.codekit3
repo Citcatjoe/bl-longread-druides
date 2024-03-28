@@ -1647,7 +1647,7 @@
       "oAP" : "\/csv\/Walmart.csv",
       "oF" : 0
     },
-    "\/csv\/Yuh - Évolution avec graphiques.xlsx" : {
+    "\/csv\/Yuh - Évolution avec graphiques.xlsx" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -1663,7 +1663,7 @@
       "oAP" : "\/csv\/Yuh - fluctuation du panier gagnants et perdants du jour.xlsx",
       "oF" : 0
     },
-    "\/csv\/Yuh - montants début et fin.xlsx" : {
+    "\/csv\/Yuh - montants début et fin.xlsx" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -4360,7 +4360,7 @@
     },
     "\/img\/this\/salutations-back.png" : {
       "ft" : 32768,
-      "iS" : 666359,
+      "iS" : 160023,
       "oA" : 0,
       "oAP" : "\/img\/this\/salutations-back.png",
       "oF" : 0,
@@ -4373,7 +4373,7 @@
     },
     "\/img\/this\/salutations-base.png" : {
       "ft" : 32768,
-      "iS" : 574910,
+      "iS" : 143942,
       "oA" : 0,
       "oAP" : "\/img\/this\/salutations-base.png",
       "oF" : 0,
@@ -4399,7 +4399,7 @@
     },
     "\/img\/this\/salutations-left.png" : {
       "ft" : 32768,
-      "iS" : 609302,
+      "iS" : 133148,
       "oA" : 0,
       "oAP" : "\/img\/this\/salutations-left.png",
       "oF" : 0,
@@ -4412,7 +4412,7 @@
     },
     "\/img\/this\/salutations-right.png" : {
       "ft" : 32768,
-      "iS" : 634365,
+      "iS" : 132778,
       "oA" : 0,
       "oAP" : "\/img\/this\/salutations-right.png",
       "oF" : 0,
@@ -4425,7 +4425,7 @@
     },
     "\/img\/this\/salutations-top.png" : {
       "ft" : 32768,
-      "iS" : 672827,
+      "iS" : 162447,
       "oA" : 0,
       "oAP" : "\/img\/this\/salutations-top.png",
       "oF" : 0,

@@ -109,12 +109,12 @@ h1 {
   line-height: 0.8;
 }
 
-h2 {
+h2:not(#onetrust-policy-title) {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h3 {
+h3:not(.ot-dpd-title) {
   font-family: Cormorant upright;
   font-weight: 700 !important;
   position: relative;
@@ -124,7 +124,7 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 @media (min-width: 768px) {
-  h3 {
+  h3:not(.ot-dpd-title) {
     font-size: 80px !important;
     line-height: 73px;
   }
