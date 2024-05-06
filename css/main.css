@@ -349,7 +349,7 @@ header.headroom--unpinned {
 .hero .hero-img {
   background: url("../img/this/ellen.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   width: calc(100% - 32px);
   height: 500px;
 }
